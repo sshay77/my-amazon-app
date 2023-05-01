@@ -13,13 +13,18 @@ interface props {
 }
 function App({ signOut }: props) {
   return (
-    <View className="App">
-      <Card>
-        <Image src={logo} className="App-logo" alt="logo" />
-        <Heading level={1}>We now have Auth!</Heading>
-      </Card>
-      <Button onClick={signOut}>Sign Out</Button>
-    </View>
+    <>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <View className="App">
+
+        <Card>
+          <Heading level={1}>We now have Auth!</Heading>
+        </Card>
+        <Button onClick={signOut}>Sign Out</Button>
+      </View>
+    </>
   );
 }
 
