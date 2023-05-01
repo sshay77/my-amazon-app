@@ -17,7 +17,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App signOut={_ =>console.log(_)}/>
+      <App signOut={() =>console.log('todo')}/>
     </Provider>
   </React.StrictMode>
 );

@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "myamazonapp9dbc4923": {}
+      },
+      "api": {
+        "myamazonapp": {}
       }
     }
   }
